@@ -1,0 +1,176 @@
+### YamlMime:TableOfContent
+items:
+- uid: PremierLeagueStats.Controllers
+  name: PremierLeagueStats.Controllers
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.Controllers.AuthController
+    name: AuthController
+    type: Class
+  - uid: PremierLeagueStats.Controllers.ClubsController
+    name: ClubsController
+    type: Class
+  - uid: PremierLeagueStats.Controllers.CoachesController
+    name: CoachesController
+    type: Class
+  - uid: PremierLeagueStats.Controllers.GoalsController
+    name: GoalsController
+    type: Class
+  - uid: PremierLeagueStats.Controllers.ImportController
+    name: ImportController
+    type: Class
+  - uid: PremierLeagueStats.Controllers.MatchesController
+    name: MatchesController
+    type: Class
+  - uid: PremierLeagueStats.Controllers.PlayersController
+    name: PlayersController
+    type: Class
+  - uid: PremierLeagueStats.Controllers.StadiumsController
+    name: StadiumsController
+    type: Class
+- uid: PremierLeagueStats.DTOs
+  name: PremierLeagueStats.DTOs
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.DTOs.ClubDto
+    name: ClubDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.CreateClubDto
+    name: CreateClubDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.CreateCoachDto
+    name: CreateCoachDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.CreateGoalDto
+    name: CreateGoalDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.CreateMatchDto
+    name: CreateMatchDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.CreatePlayerDto
+    name: CreatePlayerDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.CreateStadiumDto
+    name: CreateStadiumDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.LoginDto
+    name: LoginDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.PlayerDto
+    name: PlayerDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.RegisterDto
+    name: RegisterDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.UpdateClubDto
+    name: UpdateClubDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.UpdateCoachDto
+    name: UpdateCoachDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.UpdateGoalDto
+    name: UpdateGoalDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.UpdateMatchDto
+    name: UpdateMatchDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.UpdatePlayerDto
+    name: UpdatePlayerDto
+    type: Class
+  - uid: PremierLeagueStats.DTOs.UpdateStadiumDto
+    name: UpdateStadiumDto
+    type: Class
+- uid: PremierLeagueStats.Data
+  name: PremierLeagueStats.Data
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.Data.AppDbContext
+    name: AppDbContext
+    type: Class
+- uid: PremierLeagueStats.Mapping
+  name: PremierLeagueStats.Mapping
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.Mapping.MappingProfile
+    name: MappingProfile
+    type: Class
+- uid: PremierLeagueStats.Middleware
+  name: PremierLeagueStats.Middleware
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.Middleware.ExceptionMiddleware
+    name: ExceptionMiddleware
+    type: Class
+- uid: PremierLeagueStats.Migrations
+  name: PremierLeagueStats.Migrations
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.Migrations.AddCoachFootballDataId
+    name: AddCoachFootballDataId
+    type: Class
+  - uid: PremierLeagueStats.Migrations.AddFootballDataId
+    name: AddFootballDataId
+    type: Class
+  - uid: PremierLeagueStats.Migrations.AddIdentity
+    name: AddIdentity
+    type: Class
+  - uid: PremierLeagueStats.Migrations.AddPlayerFootballDataId
+    name: AddPlayerFootballDataId
+    type: Class
+  - uid: PremierLeagueStats.Migrations.InitialCreate
+    name: InitialCreate
+    type: Class
+- uid: PremierLeagueStats.Models
+  name: PremierLeagueStats.Models
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.Models.ApplicationUser
+    name: ApplicationUser
+    type: Class
+  - uid: PremierLeagueStats.Models.Club
+    name: Club
+    type: Class
+  - uid: PremierLeagueStats.Models.Coach
+    name: Coach
+    type: Class
+  - uid: PremierLeagueStats.Models.Goal
+    name: Goal
+    type: Class
+  - uid: PremierLeagueStats.Models.Match
+    name: Match
+    type: Class
+  - uid: PremierLeagueStats.Models.Player
+    name: Player
+    type: Class
+  - uid: PremierLeagueStats.Models.Stadium
+    name: Stadium
+    type: Class
+- uid: PremierLeagueStats.Services
+  name: PremierLeagueStats.Services
+  type: Namespace
+  items:
+  - uid: PremierLeagueStats.Services.ClubService
+    name: ClubService
+    type: Class
+  - uid: PremierLeagueStats.Services.CoachService
+    name: CoachService
+    type: Class
+  - uid: PremierLeagueStats.Services.FootballDataService
+    name: FootballDataService
+    type: Class
+  - uid: PremierLeagueStats.Services.GoalService
+    name: GoalService
+    type: Class
+  - uid: PremierLeagueStats.Services.JwtService
+    name: JwtService
+    type: Class
+  - uid: PremierLeagueStats.Services.MatchService
+    name: MatchService
+    type: Class
+  - uid: PremierLeagueStats.Services.PlayerService
+    name: PlayerService
+    type: Class
+  - uid: PremierLeagueStats.Services.StadiumService
+    name: StadiumService
+    type: Class
+memberLayout: SamePage

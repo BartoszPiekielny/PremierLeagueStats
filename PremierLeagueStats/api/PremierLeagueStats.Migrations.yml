@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Migrations
+  commentId: N:PremierLeagueStats.Migrations
+  id: PremierLeagueStats.Migrations
+  children:
+  - PremierLeagueStats.Migrations.AddCoachFootballDataId
+  - PremierLeagueStats.Migrations.AddFootballDataId
+  - PremierLeagueStats.Migrations.AddIdentity
+  - PremierLeagueStats.Migrations.AddPlayerFootballDataId
+  - PremierLeagueStats.Migrations.InitialCreate
+  langs:
+  - csharp
+  - vb
+  name: PremierLeagueStats.Migrations
+  nameWithType: PremierLeagueStats.Migrations
+  fullName: PremierLeagueStats.Migrations
+  type: Namespace
+  assemblies:
+  - PremierLeagueStats
+references:
+- uid: PremierLeagueStats.Migrations.InitialCreate
+  commentId: T:PremierLeagueStats.Migrations.InitialCreate
+  href: PremierLeagueStats.Migrations.InitialCreate.html
+  name: InitialCreate
+  nameWithType: InitialCreate
+  fullName: PremierLeagueStats.Migrations.InitialCreate
+- uid: PremierLeagueStats.Migrations.AddFootballDataId
+  commentId: T:PremierLeagueStats.Migrations.AddFootballDataId
+  href: PremierLeagueStats.Migrations.AddFootballDataId.html
+  name: AddFootballDataId
+  nameWithType: AddFootballDataId
+  fullName: PremierLeagueStats.Migrations.AddFootballDataId
+- uid: PremierLeagueStats.Migrations.AddPlayerFootballDataId
+  commentId: T:PremierLeagueStats.Migrations.AddPlayerFootballDataId
+  href: PremierLeagueStats.Migrations.AddPlayerFootballDataId.html
+  name: AddPlayerFootballDataId
+  nameWithType: AddPlayerFootballDataId
+  fullName: PremierLeagueStats.Migrations.AddPlayerFootballDataId
+- uid: PremierLeagueStats.Migrations.AddCoachFootballDataId
+  commentId: T:PremierLeagueStats.Migrations.AddCoachFootballDataId
+  href: PremierLeagueStats.Migrations.AddCoachFootballDataId.html
+  name: AddCoachFootballDataId
+  nameWithType: AddCoachFootballDataId
+  fullName: PremierLeagueStats.Migrations.AddCoachFootballDataId
+- uid: PremierLeagueStats.Migrations.AddIdentity
+  commentId: T:PremierLeagueStats.Migrations.AddIdentity
+  href: PremierLeagueStats.Migrations.AddIdentity.html
+  name: AddIdentity
+  nameWithType: AddIdentity
+  fullName: PremierLeagueStats.Migrations.AddIdentity

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Middleware
+  commentId: N:PremierLeagueStats.Middleware
+  id: PremierLeagueStats.Middleware
+  children:
+  - PremierLeagueStats.Middleware.ExceptionMiddleware
+  langs:
+  - csharp
+  - vb
+  name: PremierLeagueStats.Middleware
+  nameWithType: PremierLeagueStats.Middleware
+  fullName: PremierLeagueStats.Middleware
+  type: Namespace
+  assemblies:
+  - PremierLeagueStats
+references:
+- uid: PremierLeagueStats.Middleware.ExceptionMiddleware
+  commentId: T:PremierLeagueStats.Middleware.ExceptionMiddleware
+  href: PremierLeagueStats.Middleware.ExceptionMiddleware.html
+  name: ExceptionMiddleware
+  nameWithType: ExceptionMiddleware
+  fullName: PremierLeagueStats.Middleware.ExceptionMiddleware

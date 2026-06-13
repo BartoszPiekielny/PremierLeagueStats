@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto
+  commentId: T:PremierLeagueStats.DTOs.UpdateCoachDto
+  id: UpdateCoachDto
+  parent: PremierLeagueStats.DTOs
+  children:
+  - PremierLeagueStats.DTOs.UpdateCoachDto.ClubId
+  - PremierLeagueStats.DTOs.UpdateCoachDto.Name
+  - PremierLeagueStats.DTOs.UpdateCoachDto.Nationality
+  - PremierLeagueStats.DTOs.UpdateCoachDto.StartDate
+  langs:
+  - csharp
+  - vb
+  name: UpdateCoachDto
+  nameWithType: UpdateCoachDto
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto
+  type: Class
+  source:
+    id: UpdateCoachDto
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\DTOs\UpdateCoachDto.cs
+    startLine: 4
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.DTOs
+  syntax:
+    content: public class UpdateCoachDto
+    content.vb: Public Class UpdateCoachDto
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.Name
+  commentId: P:PremierLeagueStats.DTOs.UpdateCoachDto.Name
+  id: Name
+  parent: PremierLeagueStats.DTOs.UpdateCoachDto
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: UpdateCoachDto.Name
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\DTOs\UpdateCoachDto.cs
+    startLine: 6
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.DTOs
+  syntax:
+    content: >-
+      [Required]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Name As String
+  overload: PremierLeagueStats.DTOs.UpdateCoachDto.Name*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.Nationality
+  commentId: P:PremierLeagueStats.DTOs.UpdateCoachDto.Nationality
+  id: Nationality
+  parent: PremierLeagueStats.DTOs.UpdateCoachDto
+  langs:
+  - csharp
+  - vb
+  name: Nationality
+  nameWithType: UpdateCoachDto.Nationality
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.Nationality
+  type: Property
+  source:
+    id: Nationality
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\DTOs\UpdateCoachDto.cs
+    startLine: 9
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.DTOs
+  syntax:
+    content: >-
+      [Required]
+
+      public string Nationality { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Nationality As String
+  overload: PremierLeagueStats.DTOs.UpdateCoachDto.Nationality*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.StartDate
+  commentId: P:PremierLeagueStats.DTOs.UpdateCoachDto.StartDate
+  id: StartDate
+  parent: PremierLeagueStats.DTOs.UpdateCoachDto
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: UpdateCoachDto.StartDate
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.StartDate
+  type: Property
+  source:
+    id: StartDate
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\DTOs\UpdateCoachDto.cs
+    startLine: 12
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.DTOs
+  syntax:
+    content: public DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartDate As Date
+  overload: PremierLeagueStats.DTOs.UpdateCoachDto.StartDate*
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.ClubId
+  commentId: P:PremierLeagueStats.DTOs.UpdateCoachDto.ClubId
+  id: ClubId
+  parent: PremierLeagueStats.DTOs.UpdateCoachDto
+  langs:
+  - csharp
+  - vb
+  name: ClubId
+  nameWithType: UpdateCoachDto.ClubId
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.ClubId
+  type: Property
+  source:
+    id: ClubId
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\DTOs\UpdateCoachDto.cs
+    startLine: 14
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.DTOs
+  syntax:
+    content: public int ClubId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ClubId As Integer
+  overload: PremierLeagueStats.DTOs.UpdateCoachDto.ClubId*
+references:
+- uid: PremierLeagueStats.DTOs
+  commentId: N:PremierLeagueStats.DTOs
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.DTOs
+  nameWithType: PremierLeagueStats.DTOs
+  fullName: PremierLeagueStats.DTOs
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.DTOs
+    name: DTOs
+    href: PremierLeagueStats.DTOs.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.DTOs
+    name: DTOs
+    href: PremierLeagueStats.DTOs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.Name*
+  commentId: Overload:PremierLeagueStats.DTOs.UpdateCoachDto.Name
+  href: PremierLeagueStats.DTOs.UpdateCoachDto.html#PremierLeagueStats_DTOs_UpdateCoachDto_Name
+  name: Name
+  nameWithType: UpdateCoachDto.Name
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.Nationality*
+  commentId: Overload:PremierLeagueStats.DTOs.UpdateCoachDto.Nationality
+  href: PremierLeagueStats.DTOs.UpdateCoachDto.html#PremierLeagueStats_DTOs_UpdateCoachDto_Nationality
+  name: Nationality
+  nameWithType: UpdateCoachDto.Nationality
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.Nationality
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.StartDate*
+  commentId: Overload:PremierLeagueStats.DTOs.UpdateCoachDto.StartDate
+  href: PremierLeagueStats.DTOs.UpdateCoachDto.html#PremierLeagueStats_DTOs_UpdateCoachDto_StartDate
+  name: StartDate
+  nameWithType: UpdateCoachDto.StartDate
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.StartDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: PremierLeagueStats.DTOs.UpdateCoachDto.ClubId*
+  commentId: Overload:PremierLeagueStats.DTOs.UpdateCoachDto.ClubId
+  href: PremierLeagueStats.DTOs.UpdateCoachDto.html#PremierLeagueStats_DTOs_UpdateCoachDto_ClubId
+  name: ClubId
+  nameWithType: UpdateCoachDto.ClubId
+  fullName: PremierLeagueStats.DTOs.UpdateCoachDto.ClubId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

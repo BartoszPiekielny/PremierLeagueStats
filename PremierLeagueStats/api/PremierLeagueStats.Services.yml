@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Services
+  commentId: N:PremierLeagueStats.Services
+  id: PremierLeagueStats.Services
+  children:
+  - PremierLeagueStats.Services.ClubService
+  - PremierLeagueStats.Services.CoachService
+  - PremierLeagueStats.Services.FootballDataService
+  - PremierLeagueStats.Services.GoalService
+  - PremierLeagueStats.Services.JwtService
+  - PremierLeagueStats.Services.MatchService
+  - PremierLeagueStats.Services.PlayerService
+  - PremierLeagueStats.Services.StadiumService
+  langs:
+  - csharp
+  - vb
+  name: PremierLeagueStats.Services
+  nameWithType: PremierLeagueStats.Services
+  fullName: PremierLeagueStats.Services
+  type: Namespace
+  assemblies:
+  - PremierLeagueStats
+references:
+- uid: PremierLeagueStats.Services.ClubService
+  commentId: T:PremierLeagueStats.Services.ClubService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.ClubService.html
+  name: ClubService
+  nameWithType: ClubService
+  fullName: PremierLeagueStats.Services.ClubService
+- uid: PremierLeagueStats.Services.CoachService
+  commentId: T:PremierLeagueStats.Services.CoachService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.CoachService.html
+  name: CoachService
+  nameWithType: CoachService
+  fullName: PremierLeagueStats.Services.CoachService
+- uid: PremierLeagueStats.Services.FootballDataService
+  commentId: T:PremierLeagueStats.Services.FootballDataService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.FootballDataService.html
+  name: FootballDataService
+  nameWithType: FootballDataService
+  fullName: PremierLeagueStats.Services.FootballDataService
+- uid: PremierLeagueStats.Services.GoalService
+  commentId: T:PremierLeagueStats.Services.GoalService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.GoalService.html
+  name: GoalService
+  nameWithType: GoalService
+  fullName: PremierLeagueStats.Services.GoalService
+- uid: PremierLeagueStats.Services.JwtService
+  commentId: T:PremierLeagueStats.Services.JwtService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.JwtService.html
+  name: JwtService
+  nameWithType: JwtService
+  fullName: PremierLeagueStats.Services.JwtService
+- uid: PremierLeagueStats.Services.MatchService
+  commentId: T:PremierLeagueStats.Services.MatchService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.MatchService.html
+  name: MatchService
+  nameWithType: MatchService
+  fullName: PremierLeagueStats.Services.MatchService
+- uid: PremierLeagueStats.Services.PlayerService
+  commentId: T:PremierLeagueStats.Services.PlayerService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.PlayerService.html
+  name: PlayerService
+  nameWithType: PlayerService
+  fullName: PremierLeagueStats.Services.PlayerService
+- uid: PremierLeagueStats.Services.StadiumService
+  commentId: T:PremierLeagueStats.Services.StadiumService
+  parent: PremierLeagueStats.Services
+  href: PremierLeagueStats.Services.StadiumService.html
+  name: StadiumService
+  nameWithType: StadiumService
+  fullName: PremierLeagueStats.Services.StadiumService
+- uid: PremierLeagueStats.Services
+  commentId: N:PremierLeagueStats.Services
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Services
+  nameWithType: PremierLeagueStats.Services
+  fullName: PremierLeagueStats.Services
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Services
+    name: Services
+    href: PremierLeagueStats.Services.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Services
+    name: Services
+    href: PremierLeagueStats.Services.html

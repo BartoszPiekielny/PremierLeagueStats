@@ -1,0 +1,751 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Models.Player
+  commentId: T:PremierLeagueStats.Models.Player
+  id: Player
+  parent: PremierLeagueStats.Models
+  children:
+  - PremierLeagueStats.Models.Player.Assists
+  - PremierLeagueStats.Models.Player.Club
+  - PremierLeagueStats.Models.Player.ClubId
+  - PremierLeagueStats.Models.Player.FirstName
+  - PremierLeagueStats.Models.Player.FootballDataId
+  - PremierLeagueStats.Models.Player.Goals
+  - PremierLeagueStats.Models.Player.Id
+  - PremierLeagueStats.Models.Player.LastName
+  - PremierLeagueStats.Models.Player.MinutesPlayed
+  - PremierLeagueStats.Models.Player.Nationality
+  - PremierLeagueStats.Models.Player.Position
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Player
+  fullName: PremierLeagueStats.Models.Player
+  type: Class
+  source:
+    id: Player
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 4
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: public class Player
+    content.vb: Public Class Player
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: PremierLeagueStats.Models.Player.FootballDataId
+  commentId: P:PremierLeagueStats.Models.Player.FootballDataId
+  id: FootballDataId
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: FootballDataId
+  nameWithType: Player.FootballDataId
+  fullName: PremierLeagueStats.Models.Player.FootballDataId
+  type: Property
+  source:
+    id: FootballDataId
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 6
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: public int FootballDataId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FootballDataId As Integer
+  overload: PremierLeagueStats.Models.Player.FootballDataId*
+- uid: PremierLeagueStats.Models.Player.Id
+  commentId: P:PremierLeagueStats.Models.Player.Id
+  id: Id
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Player.Id
+  fullName: PremierLeagueStats.Models.Player.Id
+  type: Property
+  source:
+    id: Id
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 7
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: PremierLeagueStats.Models.Player.Id*
+- uid: PremierLeagueStats.Models.Player.FirstName
+  commentId: P:PremierLeagueStats.Models.Player.FirstName
+  id: FirstName
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: Player.FirstName
+  fullName: PremierLeagueStats.Models.Player.FirstName
+  type: Property
+  source:
+    id: FirstName
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 9
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: >-
+      [Required]
+
+      [MaxLength(50)]
+
+      public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <MaxLength(50)>
+
+      Public Property FirstName As String
+  overload: PremierLeagueStats.Models.Player.FirstName*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 50
+- uid: PremierLeagueStats.Models.Player.LastName
+  commentId: P:PremierLeagueStats.Models.Player.LastName
+  id: LastName
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: Player.LastName
+  fullName: PremierLeagueStats.Models.Player.LastName
+  type: Property
+  source:
+    id: LastName
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 13
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: >-
+      [Required]
+
+      [MaxLength(50)]
+
+      public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <MaxLength(50)>
+
+      Public Property LastName As String
+  overload: PremierLeagueStats.Models.Player.LastName*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 50
+- uid: PremierLeagueStats.Models.Player.Position
+  commentId: P:PremierLeagueStats.Models.Player.Position
+  id: Position
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Player.Position
+  fullName: PremierLeagueStats.Models.Player.Position
+  type: Property
+  source:
+    id: Position
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 17
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: >-
+      [Required]
+
+      public string Position { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Position As String
+  overload: PremierLeagueStats.Models.Player.Position*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+- uid: PremierLeagueStats.Models.Player.Nationality
+  commentId: P:PremierLeagueStats.Models.Player.Nationality
+  id: Nationality
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Nationality
+  nameWithType: Player.Nationality
+  fullName: PremierLeagueStats.Models.Player.Nationality
+  type: Property
+  source:
+    id: Nationality
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 20
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: public string Nationality { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Nationality As String
+  overload: PremierLeagueStats.Models.Player.Nationality*
+- uid: PremierLeagueStats.Models.Player.Goals
+  commentId: P:PremierLeagueStats.Models.Player.Goals
+  id: Goals
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Goals
+  nameWithType: Player.Goals
+  fullName: PremierLeagueStats.Models.Player.Goals
+  type: Property
+  source:
+    id: Goals
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 22
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: >-
+      [Range(0, 100)]
+
+      public int Goals { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Range(0, 100)>
+
+      Public Property Goals As Integer
+  overload: PremierLeagueStats.Models.Player.Goals*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.Int32
+      value: 100
+- uid: PremierLeagueStats.Models.Player.Assists
+  commentId: P:PremierLeagueStats.Models.Player.Assists
+  id: Assists
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Assists
+  nameWithType: Player.Assists
+  fullName: PremierLeagueStats.Models.Player.Assists
+  type: Property
+  source:
+    id: Assists
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 25
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: >-
+      [Range(0, 100)]
+
+      public int Assists { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Range(0, 100)>
+
+      Public Property Assists As Integer
+  overload: PremierLeagueStats.Models.Player.Assists*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.Int32
+      value: 100
+- uid: PremierLeagueStats.Models.Player.MinutesPlayed
+  commentId: P:PremierLeagueStats.Models.Player.MinutesPlayed
+  id: MinutesPlayed
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: MinutesPlayed
+  nameWithType: Player.MinutesPlayed
+  fullName: PremierLeagueStats.Models.Player.MinutesPlayed
+  type: Property
+  source:
+    id: MinutesPlayed
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 28
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: public int MinutesPlayed { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinutesPlayed As Integer
+  overload: PremierLeagueStats.Models.Player.MinutesPlayed*
+- uid: PremierLeagueStats.Models.Player.ClubId
+  commentId: P:PremierLeagueStats.Models.Player.ClubId
+  id: ClubId
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: ClubId
+  nameWithType: Player.ClubId
+  fullName: PremierLeagueStats.Models.Player.ClubId
+  type: Property
+  source:
+    id: ClubId
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 30
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: public int ClubId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ClubId As Integer
+  overload: PremierLeagueStats.Models.Player.ClubId*
+- uid: PremierLeagueStats.Models.Player.Club
+  commentId: P:PremierLeagueStats.Models.Player.Club
+  id: Club
+  parent: PremierLeagueStats.Models.Player
+  langs:
+  - csharp
+  - vb
+  name: Club
+  nameWithType: Player.Club
+  fullName: PremierLeagueStats.Models.Player.Club
+  type: Property
+  source:
+    id: Club
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Models\Player.cs
+    startLine: 32
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Models
+  syntax:
+    content: public Club? Club { get; set; }
+    parameters: []
+    return:
+      type: PremierLeagueStats.Models.Club
+    content.vb: Public Property Club As Club
+  overload: PremierLeagueStats.Models.Player.Club*
+references:
+- uid: PremierLeagueStats.Models
+  commentId: N:PremierLeagueStats.Models
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Models
+  nameWithType: PremierLeagueStats.Models
+  fullName: PremierLeagueStats.Models
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PremierLeagueStats.Models.Player.FootballDataId*
+  commentId: Overload:PremierLeagueStats.Models.Player.FootballDataId
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_FootballDataId
+  name: FootballDataId
+  nameWithType: Player.FootballDataId
+  fullName: PremierLeagueStats.Models.Player.FootballDataId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: PremierLeagueStats.Models.Player.Id*
+  commentId: Overload:PremierLeagueStats.Models.Player.Id
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_Id
+  name: Id
+  nameWithType: Player.Id
+  fullName: PremierLeagueStats.Models.Player.Id
+- uid: PremierLeagueStats.Models.Player.FirstName*
+  commentId: Overload:PremierLeagueStats.Models.Player.FirstName
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_FirstName
+  name: FirstName
+  nameWithType: Player.FirstName
+  fullName: PremierLeagueStats.Models.Player.FirstName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: PremierLeagueStats.Models.Player.LastName*
+  commentId: Overload:PremierLeagueStats.Models.Player.LastName
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_LastName
+  name: LastName
+  nameWithType: Player.LastName
+  fullName: PremierLeagueStats.Models.Player.LastName
+- uid: PremierLeagueStats.Models.Player.Position*
+  commentId: Overload:PremierLeagueStats.Models.Player.Position
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_Position
+  name: Position
+  nameWithType: Player.Position
+  fullName: PremierLeagueStats.Models.Player.Position
+- uid: PremierLeagueStats.Models.Player.Nationality*
+  commentId: Overload:PremierLeagueStats.Models.Player.Nationality
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_Nationality
+  name: Nationality
+  nameWithType: Player.Nationality
+  fullName: PremierLeagueStats.Models.Player.Nationality
+- uid: PremierLeagueStats.Models.Player.Goals*
+  commentId: Overload:PremierLeagueStats.Models.Player.Goals
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_Goals
+  name: Goals
+  nameWithType: Player.Goals
+  fullName: PremierLeagueStats.Models.Player.Goals
+- uid: PremierLeagueStats.Models.Player.Assists*
+  commentId: Overload:PremierLeagueStats.Models.Player.Assists
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_Assists
+  name: Assists
+  nameWithType: Player.Assists
+  fullName: PremierLeagueStats.Models.Player.Assists
+- uid: PremierLeagueStats.Models.Player.MinutesPlayed*
+  commentId: Overload:PremierLeagueStats.Models.Player.MinutesPlayed
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_MinutesPlayed
+  name: MinutesPlayed
+  nameWithType: Player.MinutesPlayed
+  fullName: PremierLeagueStats.Models.Player.MinutesPlayed
+- uid: PremierLeagueStats.Models.Player.ClubId*
+  commentId: Overload:PremierLeagueStats.Models.Player.ClubId
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_ClubId
+  name: ClubId
+  nameWithType: Player.ClubId
+  fullName: PremierLeagueStats.Models.Player.ClubId
+- uid: PremierLeagueStats.Models.Player.Club*
+  commentId: Overload:PremierLeagueStats.Models.Player.Club
+  href: PremierLeagueStats.Models.Player.html#PremierLeagueStats_Models_Player_Club
+  name: Club
+  nameWithType: Player.Club
+  fullName: PremierLeagueStats.Models.Player.Club
+- uid: PremierLeagueStats.Models.Club
+  commentId: T:PremierLeagueStats.Models.Club
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Club.html
+  name: Club
+  nameWithType: Club
+  fullName: PremierLeagueStats.Models.Club

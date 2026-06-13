@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Controllers
+  commentId: N:PremierLeagueStats.Controllers
+  id: PremierLeagueStats.Controllers
+  children:
+  - PremierLeagueStats.Controllers.AuthController
+  - PremierLeagueStats.Controllers.ClubsController
+  - PremierLeagueStats.Controllers.CoachesController
+  - PremierLeagueStats.Controllers.GoalsController
+  - PremierLeagueStats.Controllers.ImportController
+  - PremierLeagueStats.Controllers.MatchesController
+  - PremierLeagueStats.Controllers.PlayersController
+  - PremierLeagueStats.Controllers.StadiumsController
+  langs:
+  - csharp
+  - vb
+  name: PremierLeagueStats.Controllers
+  nameWithType: PremierLeagueStats.Controllers
+  fullName: PremierLeagueStats.Controllers
+  type: Namespace
+  assemblies:
+  - PremierLeagueStats
+references:
+- uid: PremierLeagueStats.Controllers.AuthController
+  commentId: T:PremierLeagueStats.Controllers.AuthController
+  href: PremierLeagueStats.Controllers.AuthController.html
+  name: AuthController
+  nameWithType: AuthController
+  fullName: PremierLeagueStats.Controllers.AuthController
+- uid: PremierLeagueStats.Controllers.ClubsController
+  commentId: T:PremierLeagueStats.Controllers.ClubsController
+  href: PremierLeagueStats.Controllers.ClubsController.html
+  name: ClubsController
+  nameWithType: ClubsController
+  fullName: PremierLeagueStats.Controllers.ClubsController
+- uid: PremierLeagueStats.Controllers.CoachesController
+  commentId: T:PremierLeagueStats.Controllers.CoachesController
+  href: PremierLeagueStats.Controllers.CoachesController.html
+  name: CoachesController
+  nameWithType: CoachesController
+  fullName: PremierLeagueStats.Controllers.CoachesController
+- uid: PremierLeagueStats.Controllers.GoalsController
+  commentId: T:PremierLeagueStats.Controllers.GoalsController
+  href: PremierLeagueStats.Controllers.GoalsController.html
+  name: GoalsController
+  nameWithType: GoalsController
+  fullName: PremierLeagueStats.Controllers.GoalsController
+- uid: PremierLeagueStats.Controllers.ImportController
+  commentId: T:PremierLeagueStats.Controllers.ImportController
+  href: PremierLeagueStats.Controllers.ImportController.html
+  name: ImportController
+  nameWithType: ImportController
+  fullName: PremierLeagueStats.Controllers.ImportController
+- uid: PremierLeagueStats.Controllers.MatchesController
+  commentId: T:PremierLeagueStats.Controllers.MatchesController
+  href: PremierLeagueStats.Controllers.MatchesController.html
+  name: MatchesController
+  nameWithType: MatchesController
+  fullName: PremierLeagueStats.Controllers.MatchesController
+- uid: PremierLeagueStats.Controllers.PlayersController
+  commentId: T:PremierLeagueStats.Controllers.PlayersController
+  href: PremierLeagueStats.Controllers.PlayersController.html
+  name: PlayersController
+  nameWithType: PlayersController
+  fullName: PremierLeagueStats.Controllers.PlayersController
+- uid: PremierLeagueStats.Controllers.StadiumsController
+  commentId: T:PremierLeagueStats.Controllers.StadiumsController
+  href: PremierLeagueStats.Controllers.StadiumsController.html
+  name: StadiumsController
+  nameWithType: StadiumsController
+  fullName: PremierLeagueStats.Controllers.StadiumsController

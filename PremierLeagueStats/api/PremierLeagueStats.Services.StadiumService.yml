@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Services.StadiumService
+  commentId: T:PremierLeagueStats.Services.StadiumService
+  id: StadiumService
+  parent: PremierLeagueStats.Services
+  children:
+  - PremierLeagueStats.Services.StadiumService.#ctor(PremierLeagueStats.Data.AppDbContext)
+  - PremierLeagueStats.Services.StadiumService.Create(PremierLeagueStats.Models.Stadium)
+  - PremierLeagueStats.Services.StadiumService.Delete(System.Int32)
+  - PremierLeagueStats.Services.StadiumService.Get(System.Int32)
+  - PremierLeagueStats.Services.StadiumService.GetAll
+  - PremierLeagueStats.Services.StadiumService.Update(System.Int32,PremierLeagueStats.Models.Stadium)
+  langs:
+  - csharp
+  - vb
+  name: StadiumService
+  nameWithType: StadiumService
+  fullName: PremierLeagueStats.Services.StadiumService
+  type: Class
+  source:
+    id: StadiumService
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\StadiumService.cs
+    startLine: 6
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public class StadiumService
+    content.vb: Public Class StadiumService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: PremierLeagueStats.Services.StadiumService.#ctor(PremierLeagueStats.Data.AppDbContext)
+  commentId: M:PremierLeagueStats.Services.StadiumService.#ctor(PremierLeagueStats.Data.AppDbContext)
+  id: '#ctor(PremierLeagueStats.Data.AppDbContext)'
+  parent: PremierLeagueStats.Services.StadiumService
+  langs:
+  - csharp
+  - vb
+  name: StadiumService(AppDbContext)
+  nameWithType: StadiumService.StadiumService(AppDbContext)
+  fullName: PremierLeagueStats.Services.StadiumService.StadiumService(PremierLeagueStats.Data.AppDbContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\StadiumService.cs
+    startLine: 10
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public StadiumService(AppDbContext context)
+    parameters:
+    - id: context
+      type: PremierLeagueStats.Data.AppDbContext
+    content.vb: Public Sub New(context As AppDbContext)
+  overload: PremierLeagueStats.Services.StadiumService.#ctor*
+  nameWithType.vb: StadiumService.New(AppDbContext)
+  fullName.vb: PremierLeagueStats.Services.StadiumService.New(PremierLeagueStats.Data.AppDbContext)
+  name.vb: New(AppDbContext)
+- uid: PremierLeagueStats.Services.StadiumService.GetAll
+  commentId: M:PremierLeagueStats.Services.StadiumService.GetAll
+  id: GetAll
+  parent: PremierLeagueStats.Services.StadiumService
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: StadiumService.GetAll()
+  fullName: PremierLeagueStats.Services.StadiumService.GetAll()
+  type: Method
+  source:
+    id: GetAll
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\StadiumService.cs
+    startLine: 15
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<List<Stadium>> GetAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{PremierLeagueStats.Models.Stadium}}
+    content.vb: Public Function GetAll() As Task(Of List(Of Stadium))
+  overload: PremierLeagueStats.Services.StadiumService.GetAll*
+- uid: PremierLeagueStats.Services.StadiumService.Get(System.Int32)
+  commentId: M:PremierLeagueStats.Services.StadiumService.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: PremierLeagueStats.Services.StadiumService
+  langs:
+  - csharp
+  - vb
+  name: Get(int)
+  nameWithType: StadiumService.Get(int)
+  fullName: PremierLeagueStats.Services.StadiumService.Get(int)
+  type: Method
+  source:
+    id: Get
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\StadiumService.cs
+    startLine: 22
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<Stadium?> Get(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{PremierLeagueStats.Models.Stadium}
+    content.vb: Public Function [Get](id As Integer) As Task(Of Stadium)
+  overload: PremierLeagueStats.Services.StadiumService.Get*
+  nameWithType.vb: StadiumService.Get(Integer)
+  fullName.vb: PremierLeagueStats.Services.StadiumService.Get(Integer)
+  name.vb: Get(Integer)
+- uid: PremierLeagueStats.Services.StadiumService.Create(PremierLeagueStats.Models.Stadium)
+  commentId: M:PremierLeagueStats.Services.StadiumService.Create(PremierLeagueStats.Models.Stadium)
+  id: Create(PremierLeagueStats.Models.Stadium)
+  parent: PremierLeagueStats.Services.StadiumService
+  langs:
+  - csharp
+  - vb
+  name: Create(Stadium)
+  nameWithType: StadiumService.Create(Stadium)
+  fullName: PremierLeagueStats.Services.StadiumService.Create(PremierLeagueStats.Models.Stadium)
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\StadiumService.cs
+    startLine: 29
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<Stadium> Create(Stadium stadium)
+    parameters:
+    - id: stadium
+      type: PremierLeagueStats.Models.Stadium
+    return:
+      type: System.Threading.Tasks.Task{PremierLeagueStats.Models.Stadium}
+    content.vb: Public Function Create(stadium As Stadium) As Task(Of Stadium)
+  overload: PremierLeagueStats.Services.StadiumService.Create*
+- uid: PremierLeagueStats.Services.StadiumService.Update(System.Int32,PremierLeagueStats.Models.Stadium)
+  commentId: M:PremierLeagueStats.Services.StadiumService.Update(System.Int32,PremierLeagueStats.Models.Stadium)
+  id: Update(System.Int32,PremierLeagueStats.Models.Stadium)
+  parent: PremierLeagueStats.Services.StadiumService
+  langs:
+  - csharp
+  - vb
+  name: Update(int, Stadium)
+  nameWithType: StadiumService.Update(int, Stadium)
+  fullName: PremierLeagueStats.Services.StadiumService.Update(int, PremierLeagueStats.Models.Stadium)
+  type: Method
+  source:
+    id: Update
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\StadiumService.cs
+    startLine: 36
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<Stadium?> Update(int id, Stadium stadium)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: stadium
+      type: PremierLeagueStats.Models.Stadium
+    return:
+      type: System.Threading.Tasks.Task{PremierLeagueStats.Models.Stadium}
+    content.vb: Public Function Update(id As Integer, stadium As Stadium) As Task(Of Stadium)
+  overload: PremierLeagueStats.Services.StadiumService.Update*
+  nameWithType.vb: StadiumService.Update(Integer, Stadium)
+  fullName.vb: PremierLeagueStats.Services.StadiumService.Update(Integer, PremierLeagueStats.Models.Stadium)
+  name.vb: Update(Integer, Stadium)
+- uid: PremierLeagueStats.Services.StadiumService.Delete(System.Int32)
+  commentId: M:PremierLeagueStats.Services.StadiumService.Delete(System.Int32)
+  id: Delete(System.Int32)
+  parent: PremierLeagueStats.Services.StadiumService
+  langs:
+  - csharp
+  - vb
+  name: Delete(int)
+  nameWithType: StadiumService.Delete(int)
+  fullName: PremierLeagueStats.Services.StadiumService.Delete(int)
+  type: Method
+  source:
+    id: Delete
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\StadiumService.cs
+    startLine: 54
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<bool> Delete(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function Delete(id As Integer) As Task(Of Boolean)
+  overload: PremierLeagueStats.Services.StadiumService.Delete*
+  nameWithType.vb: StadiumService.Delete(Integer)
+  fullName.vb: PremierLeagueStats.Services.StadiumService.Delete(Integer)
+  name.vb: Delete(Integer)
+references:
+- uid: PremierLeagueStats.Services
+  commentId: N:PremierLeagueStats.Services
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Services
+  nameWithType: PremierLeagueStats.Services
+  fullName: PremierLeagueStats.Services
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Services
+    name: Services
+    href: PremierLeagueStats.Services.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Services
+    name: Services
+    href: PremierLeagueStats.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PremierLeagueStats.Services.StadiumService.#ctor*
+  commentId: Overload:PremierLeagueStats.Services.StadiumService.#ctor
+  href: PremierLeagueStats.Services.StadiumService.html#PremierLeagueStats_Services_StadiumService__ctor_PremierLeagueStats_Data_AppDbContext_
+  name: StadiumService
+  nameWithType: StadiumService.StadiumService
+  fullName: PremierLeagueStats.Services.StadiumService.StadiumService
+  nameWithType.vb: StadiumService.New
+  fullName.vb: PremierLeagueStats.Services.StadiumService.New
+  name.vb: New
+- uid: PremierLeagueStats.Data.AppDbContext
+  commentId: T:PremierLeagueStats.Data.AppDbContext
+  parent: PremierLeagueStats.Data
+  href: PremierLeagueStats.Data.AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: PremierLeagueStats.Data.AppDbContext
+- uid: PremierLeagueStats.Data
+  commentId: N:PremierLeagueStats.Data
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Data
+  nameWithType: PremierLeagueStats.Data
+  fullName: PremierLeagueStats.Data
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Data
+    name: Data
+    href: PremierLeagueStats.Data.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Data
+    name: Data
+    href: PremierLeagueStats.Data.html
+- uid: PremierLeagueStats.Services.StadiumService.GetAll*
+  commentId: Overload:PremierLeagueStats.Services.StadiumService.GetAll
+  href: PremierLeagueStats.Services.StadiumService.html#PremierLeagueStats_Services_StadiumService_GetAll
+  name: GetAll
+  nameWithType: StadiumService.GetAll
+  fullName: PremierLeagueStats.Services.StadiumService.GetAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{PremierLeagueStats.Models.Stadium}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{PremierLeagueStats.Models.Stadium}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<Stadium>>
+  nameWithType: Task<List<Stadium>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<PremierLeagueStats.Models.Stadium>>
+  nameWithType.vb: Task(Of List(Of Stadium))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of PremierLeagueStats.Models.Stadium))
+  name.vb: Task(Of List(Of Stadium))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: PremierLeagueStats.Models.Stadium
+    name: Stadium
+    href: PremierLeagueStats.Models.Stadium.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: PremierLeagueStats.Models.Stadium
+    name: Stadium
+    href: PremierLeagueStats.Models.Stadium.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: PremierLeagueStats.Services.StadiumService.Get*
+  commentId: Overload:PremierLeagueStats.Services.StadiumService.Get
+  href: PremierLeagueStats.Services.StadiumService.html#PremierLeagueStats_Services_StadiumService_Get_System_Int32_
+  name: Get
+  nameWithType: StadiumService.Get
+  fullName: PremierLeagueStats.Services.StadiumService.Get
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{PremierLeagueStats.Models.Stadium}
+  commentId: T:System.Threading.Tasks.Task{PremierLeagueStats.Models.Stadium}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Stadium>
+  nameWithType: Task<Stadium>
+  fullName: System.Threading.Tasks.Task<PremierLeagueStats.Models.Stadium>
+  nameWithType.vb: Task(Of Stadium)
+  fullName.vb: System.Threading.Tasks.Task(Of PremierLeagueStats.Models.Stadium)
+  name.vb: Task(Of Stadium)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: PremierLeagueStats.Models.Stadium
+    name: Stadium
+    href: PremierLeagueStats.Models.Stadium.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: PremierLeagueStats.Models.Stadium
+    name: Stadium
+    href: PremierLeagueStats.Models.Stadium.html
+  - name: )
+- uid: PremierLeagueStats.Services.StadiumService.Create*
+  commentId: Overload:PremierLeagueStats.Services.StadiumService.Create
+  href: PremierLeagueStats.Services.StadiumService.html#PremierLeagueStats_Services_StadiumService_Create_PremierLeagueStats_Models_Stadium_
+  name: Create
+  nameWithType: StadiumService.Create
+  fullName: PremierLeagueStats.Services.StadiumService.Create
+- uid: PremierLeagueStats.Models.Stadium
+  commentId: T:PremierLeagueStats.Models.Stadium
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Stadium.html
+  name: Stadium
+  nameWithType: Stadium
+  fullName: PremierLeagueStats.Models.Stadium
+- uid: PremierLeagueStats.Models
+  commentId: N:PremierLeagueStats.Models
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Models
+  nameWithType: PremierLeagueStats.Models
+  fullName: PremierLeagueStats.Models
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html
+- uid: PremierLeagueStats.Services.StadiumService.Update*
+  commentId: Overload:PremierLeagueStats.Services.StadiumService.Update
+  href: PremierLeagueStats.Services.StadiumService.html#PremierLeagueStats_Services_StadiumService_Update_System_Int32_PremierLeagueStats_Models_Stadium_
+  name: Update
+  nameWithType: StadiumService.Update
+  fullName: PremierLeagueStats.Services.StadiumService.Update
+- uid: PremierLeagueStats.Services.StadiumService.Delete*
+  commentId: Overload:PremierLeagueStats.Services.StadiumService.Delete
+  href: PremierLeagueStats.Services.StadiumService.html#PremierLeagueStats_Services_StadiumService_Delete_System_Int32_
+  name: Delete
+  nameWithType: StadiumService.Delete
+  fullName: PremierLeagueStats.Services.StadiumService.Delete
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

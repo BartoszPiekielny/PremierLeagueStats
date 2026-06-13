@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+
+**/bin/
+**/obj/
+
+TestResults/
+
+_site/
+
+node_modules/

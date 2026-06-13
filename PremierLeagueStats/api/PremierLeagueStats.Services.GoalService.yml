@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Services.GoalService
+  commentId: T:PremierLeagueStats.Services.GoalService
+  id: GoalService
+  parent: PremierLeagueStats.Services
+  children:
+  - PremierLeagueStats.Services.GoalService.#ctor(PremierLeagueStats.Data.AppDbContext)
+  - PremierLeagueStats.Services.GoalService.Create(PremierLeagueStats.Models.Goal)
+  - PremierLeagueStats.Services.GoalService.Delete(System.Int32)
+  - PremierLeagueStats.Services.GoalService.Get(System.Int32)
+  - PremierLeagueStats.Services.GoalService.GetAll
+  - PremierLeagueStats.Services.GoalService.Update(System.Int32,PremierLeagueStats.Models.Goal)
+  langs:
+  - csharp
+  - vb
+  name: GoalService
+  nameWithType: GoalService
+  fullName: PremierLeagueStats.Services.GoalService
+  type: Class
+  source:
+    id: GoalService
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\GoalService.cs
+    startLine: 6
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public class GoalService
+    content.vb: Public Class GoalService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: PremierLeagueStats.Services.GoalService.#ctor(PremierLeagueStats.Data.AppDbContext)
+  commentId: M:PremierLeagueStats.Services.GoalService.#ctor(PremierLeagueStats.Data.AppDbContext)
+  id: '#ctor(PremierLeagueStats.Data.AppDbContext)'
+  parent: PremierLeagueStats.Services.GoalService
+  langs:
+  - csharp
+  - vb
+  name: GoalService(AppDbContext)
+  nameWithType: GoalService.GoalService(AppDbContext)
+  fullName: PremierLeagueStats.Services.GoalService.GoalService(PremierLeagueStats.Data.AppDbContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\GoalService.cs
+    startLine: 10
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public GoalService(AppDbContext context)
+    parameters:
+    - id: context
+      type: PremierLeagueStats.Data.AppDbContext
+    content.vb: Public Sub New(context As AppDbContext)
+  overload: PremierLeagueStats.Services.GoalService.#ctor*
+  nameWithType.vb: GoalService.New(AppDbContext)
+  fullName.vb: PremierLeagueStats.Services.GoalService.New(PremierLeagueStats.Data.AppDbContext)
+  name.vb: New(AppDbContext)
+- uid: PremierLeagueStats.Services.GoalService.GetAll
+  commentId: M:PremierLeagueStats.Services.GoalService.GetAll
+  id: GetAll
+  parent: PremierLeagueStats.Services.GoalService
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: GoalService.GetAll()
+  fullName: PremierLeagueStats.Services.GoalService.GetAll()
+  type: Method
+  source:
+    id: GetAll
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\GoalService.cs
+    startLine: 15
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<List<Goal>> GetAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{PremierLeagueStats.Models.Goal}}
+    content.vb: Public Function GetAll() As Task(Of List(Of Goal))
+  overload: PremierLeagueStats.Services.GoalService.GetAll*
+- uid: PremierLeagueStats.Services.GoalService.Get(System.Int32)
+  commentId: M:PremierLeagueStats.Services.GoalService.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: PremierLeagueStats.Services.GoalService
+  langs:
+  - csharp
+  - vb
+  name: Get(int)
+  nameWithType: GoalService.Get(int)
+  fullName: PremierLeagueStats.Services.GoalService.Get(int)
+  type: Method
+  source:
+    id: Get
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\GoalService.cs
+    startLine: 23
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<Goal?> Get(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{PremierLeagueStats.Models.Goal}
+    content.vb: Public Function [Get](id As Integer) As Task(Of Goal)
+  overload: PremierLeagueStats.Services.GoalService.Get*
+  nameWithType.vb: GoalService.Get(Integer)
+  fullName.vb: PremierLeagueStats.Services.GoalService.Get(Integer)
+  name.vb: Get(Integer)
+- uid: PremierLeagueStats.Services.GoalService.Create(PremierLeagueStats.Models.Goal)
+  commentId: M:PremierLeagueStats.Services.GoalService.Create(PremierLeagueStats.Models.Goal)
+  id: Create(PremierLeagueStats.Models.Goal)
+  parent: PremierLeagueStats.Services.GoalService
+  langs:
+  - csharp
+  - vb
+  name: Create(Goal)
+  nameWithType: GoalService.Create(Goal)
+  fullName: PremierLeagueStats.Services.GoalService.Create(PremierLeagueStats.Models.Goal)
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\GoalService.cs
+    startLine: 31
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<Goal> Create(Goal goal)
+    parameters:
+    - id: goal
+      type: PremierLeagueStats.Models.Goal
+    return:
+      type: System.Threading.Tasks.Task{PremierLeagueStats.Models.Goal}
+    content.vb: Public Function Create(goal As Goal) As Task(Of Goal)
+  overload: PremierLeagueStats.Services.GoalService.Create*
+- uid: PremierLeagueStats.Services.GoalService.Update(System.Int32,PremierLeagueStats.Models.Goal)
+  commentId: M:PremierLeagueStats.Services.GoalService.Update(System.Int32,PremierLeagueStats.Models.Goal)
+  id: Update(System.Int32,PremierLeagueStats.Models.Goal)
+  parent: PremierLeagueStats.Services.GoalService
+  langs:
+  - csharp
+  - vb
+  name: Update(int, Goal)
+  nameWithType: GoalService.Update(int, Goal)
+  fullName: PremierLeagueStats.Services.GoalService.Update(int, PremierLeagueStats.Models.Goal)
+  type: Method
+  source:
+    id: Update
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\GoalService.cs
+    startLine: 38
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<Goal?> Update(int id, Goal goal)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: goal
+      type: PremierLeagueStats.Models.Goal
+    return:
+      type: System.Threading.Tasks.Task{PremierLeagueStats.Models.Goal}
+    content.vb: Public Function Update(id As Integer, goal As Goal) As Task(Of Goal)
+  overload: PremierLeagueStats.Services.GoalService.Update*
+  nameWithType.vb: GoalService.Update(Integer, Goal)
+  fullName.vb: PremierLeagueStats.Services.GoalService.Update(Integer, PremierLeagueStats.Models.Goal)
+  name.vb: Update(Integer, Goal)
+- uid: PremierLeagueStats.Services.GoalService.Delete(System.Int32)
+  commentId: M:PremierLeagueStats.Services.GoalService.Delete(System.Int32)
+  id: Delete(System.Int32)
+  parent: PremierLeagueStats.Services.GoalService
+  langs:
+  - csharp
+  - vb
+  name: Delete(int)
+  nameWithType: GoalService.Delete(int)
+  fullName: PremierLeagueStats.Services.GoalService.Delete(int)
+  type: Method
+  source:
+    id: Delete
+    path: C:\Users\User\OneDrive\Pulpit\Platformy Programistyczne\Premier League Stats\PremierLeagueStats\Services\GoalService.cs
+    startLine: 54
+  assemblies:
+  - PremierLeagueStats
+  namespace: PremierLeagueStats.Services
+  syntax:
+    content: public Task<bool> Delete(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function Delete(id As Integer) As Task(Of Boolean)
+  overload: PremierLeagueStats.Services.GoalService.Delete*
+  nameWithType.vb: GoalService.Delete(Integer)
+  fullName.vb: PremierLeagueStats.Services.GoalService.Delete(Integer)
+  name.vb: Delete(Integer)
+references:
+- uid: PremierLeagueStats.Services
+  commentId: N:PremierLeagueStats.Services
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Services
+  nameWithType: PremierLeagueStats.Services
+  fullName: PremierLeagueStats.Services
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Services
+    name: Services
+    href: PremierLeagueStats.Services.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Services
+    name: Services
+    href: PremierLeagueStats.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PremierLeagueStats.Services.GoalService.#ctor*
+  commentId: Overload:PremierLeagueStats.Services.GoalService.#ctor
+  href: PremierLeagueStats.Services.GoalService.html#PremierLeagueStats_Services_GoalService__ctor_PremierLeagueStats_Data_AppDbContext_
+  name: GoalService
+  nameWithType: GoalService.GoalService
+  fullName: PremierLeagueStats.Services.GoalService.GoalService
+  nameWithType.vb: GoalService.New
+  fullName.vb: PremierLeagueStats.Services.GoalService.New
+  name.vb: New
+- uid: PremierLeagueStats.Data.AppDbContext
+  commentId: T:PremierLeagueStats.Data.AppDbContext
+  parent: PremierLeagueStats.Data
+  href: PremierLeagueStats.Data.AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: PremierLeagueStats.Data.AppDbContext
+- uid: PremierLeagueStats.Data
+  commentId: N:PremierLeagueStats.Data
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Data
+  nameWithType: PremierLeagueStats.Data
+  fullName: PremierLeagueStats.Data
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Data
+    name: Data
+    href: PremierLeagueStats.Data.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Data
+    name: Data
+    href: PremierLeagueStats.Data.html
+- uid: PremierLeagueStats.Services.GoalService.GetAll*
+  commentId: Overload:PremierLeagueStats.Services.GoalService.GetAll
+  href: PremierLeagueStats.Services.GoalService.html#PremierLeagueStats_Services_GoalService_GetAll
+  name: GetAll
+  nameWithType: GoalService.GetAll
+  fullName: PremierLeagueStats.Services.GoalService.GetAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{PremierLeagueStats.Models.Goal}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{PremierLeagueStats.Models.Goal}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<Goal>>
+  nameWithType: Task<List<Goal>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<PremierLeagueStats.Models.Goal>>
+  nameWithType.vb: Task(Of List(Of Goal))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of PremierLeagueStats.Models.Goal))
+  name.vb: Task(Of List(Of Goal))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: PremierLeagueStats.Models.Goal
+    name: Goal
+    href: PremierLeagueStats.Models.Goal.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: PremierLeagueStats.Models.Goal
+    name: Goal
+    href: PremierLeagueStats.Models.Goal.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: PremierLeagueStats.Services.GoalService.Get*
+  commentId: Overload:PremierLeagueStats.Services.GoalService.Get
+  href: PremierLeagueStats.Services.GoalService.html#PremierLeagueStats_Services_GoalService_Get_System_Int32_
+  name: Get
+  nameWithType: GoalService.Get
+  fullName: PremierLeagueStats.Services.GoalService.Get
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{PremierLeagueStats.Models.Goal}
+  commentId: T:System.Threading.Tasks.Task{PremierLeagueStats.Models.Goal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Goal>
+  nameWithType: Task<Goal>
+  fullName: System.Threading.Tasks.Task<PremierLeagueStats.Models.Goal>
+  nameWithType.vb: Task(Of Goal)
+  fullName.vb: System.Threading.Tasks.Task(Of PremierLeagueStats.Models.Goal)
+  name.vb: Task(Of Goal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: PremierLeagueStats.Models.Goal
+    name: Goal
+    href: PremierLeagueStats.Models.Goal.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: PremierLeagueStats.Models.Goal
+    name: Goal
+    href: PremierLeagueStats.Models.Goal.html
+  - name: )
+- uid: PremierLeagueStats.Services.GoalService.Create*
+  commentId: Overload:PremierLeagueStats.Services.GoalService.Create
+  href: PremierLeagueStats.Services.GoalService.html#PremierLeagueStats_Services_GoalService_Create_PremierLeagueStats_Models_Goal_
+  name: Create
+  nameWithType: GoalService.Create
+  fullName: PremierLeagueStats.Services.GoalService.Create
+- uid: PremierLeagueStats.Models.Goal
+  commentId: T:PremierLeagueStats.Models.Goal
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Goal.html
+  name: Goal
+  nameWithType: Goal
+  fullName: PremierLeagueStats.Models.Goal
+- uid: PremierLeagueStats.Models
+  commentId: N:PremierLeagueStats.Models
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Models
+  nameWithType: PremierLeagueStats.Models
+  fullName: PremierLeagueStats.Models
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html
+- uid: PremierLeagueStats.Services.GoalService.Update*
+  commentId: Overload:PremierLeagueStats.Services.GoalService.Update
+  href: PremierLeagueStats.Services.GoalService.html#PremierLeagueStats_Services_GoalService_Update_System_Int32_PremierLeagueStats_Models_Goal_
+  name: Update
+  nameWithType: GoalService.Update
+  fullName: PremierLeagueStats.Services.GoalService.Update
+- uid: PremierLeagueStats.Services.GoalService.Delete*
+  commentId: Overload:PremierLeagueStats.Services.GoalService.Delete
+  href: PremierLeagueStats.Services.GoalService.html#PremierLeagueStats_Services_GoalService_Delete_System_Int32_
+  name: Delete
+  nameWithType: GoalService.Delete
+  fullName: PremierLeagueStats.Services.GoalService.Delete
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

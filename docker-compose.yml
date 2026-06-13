@@ -1,0 +1,27 @@
+services:
+
+  api:
+    build:
+      context: ./PremierLeagueStats
+
+    ports:
+      - "5000:8080"
+
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: premierleague_stats
+
+    ports:
+      - "3307:3306"
+
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Data
+  commentId: N:PremierLeagueStats.Data
+  id: PremierLeagueStats.Data
+  children:
+  - PremierLeagueStats.Data.AppDbContext
+  langs:
+  - csharp
+  - vb
+  name: PremierLeagueStats.Data
+  nameWithType: PremierLeagueStats.Data
+  fullName: PremierLeagueStats.Data
+  type: Namespace
+  assemblies:
+  - PremierLeagueStats
+references:
+- uid: PremierLeagueStats.Data.AppDbContext
+  commentId: T:PremierLeagueStats.Data.AppDbContext
+  parent: PremierLeagueStats.Data
+  href: PremierLeagueStats.Data.AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: PremierLeagueStats.Data.AppDbContext
+- uid: PremierLeagueStats.Data
+  commentId: N:PremierLeagueStats.Data
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Data
+  nameWithType: PremierLeagueStats.Data
+  fullName: PremierLeagueStats.Data
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Data
+    name: Data
+    href: PremierLeagueStats.Data.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Data
+    name: Data
+    href: PremierLeagueStats.Data.html

@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Models
+  commentId: N:PremierLeagueStats.Models
+  id: PremierLeagueStats.Models
+  children:
+  - PremierLeagueStats.Models.ApplicationUser
+  - PremierLeagueStats.Models.Club
+  - PremierLeagueStats.Models.Coach
+  - PremierLeagueStats.Models.Goal
+  - PremierLeagueStats.Models.Match
+  - PremierLeagueStats.Models.Player
+  - PremierLeagueStats.Models.Stadium
+  langs:
+  - csharp
+  - vb
+  name: PremierLeagueStats.Models
+  nameWithType: PremierLeagueStats.Models
+  fullName: PremierLeagueStats.Models
+  type: Namespace
+  assemblies:
+  - PremierLeagueStats
+references:
+- uid: PremierLeagueStats.Models.ApplicationUser
+  commentId: T:PremierLeagueStats.Models.ApplicationUser
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.ApplicationUser.html
+  name: ApplicationUser
+  nameWithType: ApplicationUser
+  fullName: PremierLeagueStats.Models.ApplicationUser
+- uid: PremierLeagueStats.Models.Club
+  commentId: T:PremierLeagueStats.Models.Club
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Club.html
+  name: Club
+  nameWithType: Club
+  fullName: PremierLeagueStats.Models.Club
+- uid: PremierLeagueStats.Models.Coach
+  commentId: T:PremierLeagueStats.Models.Coach
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Coach.html
+  name: Coach
+  nameWithType: Coach
+  fullName: PremierLeagueStats.Models.Coach
+- uid: PremierLeagueStats.Models.Goal
+  commentId: T:PremierLeagueStats.Models.Goal
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Goal.html
+  name: Goal
+  nameWithType: Goal
+  fullName: PremierLeagueStats.Models.Goal
+- uid: PremierLeagueStats.Models.Match
+  commentId: T:PremierLeagueStats.Models.Match
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Match.html
+  name: Match
+  nameWithType: Match
+  fullName: PremierLeagueStats.Models.Match
+- uid: PremierLeagueStats.Models.Player
+  commentId: T:PremierLeagueStats.Models.Player
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Player.html
+  name: Player
+  nameWithType: Player
+  fullName: PremierLeagueStats.Models.Player
+- uid: PremierLeagueStats.Models.Stadium
+  commentId: T:PremierLeagueStats.Models.Stadium
+  parent: PremierLeagueStats.Models
+  href: PremierLeagueStats.Models.Stadium.html
+  name: Stadium
+  nameWithType: Stadium
+  fullName: PremierLeagueStats.Models.Stadium
+- uid: PremierLeagueStats.Models
+  commentId: N:PremierLeagueStats.Models
+  href: PremierLeagueStats.html
+  name: PremierLeagueStats.Models
+  nameWithType: PremierLeagueStats.Models
+  fullName: PremierLeagueStats.Models
+  spec.csharp:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html
+  spec.vb:
+  - uid: PremierLeagueStats
+    name: PremierLeagueStats
+    href: PremierLeagueStats.html
+  - name: .
+  - uid: PremierLeagueStats.Models
+    name: Models
+    href: PremierLeagueStats.Models.html

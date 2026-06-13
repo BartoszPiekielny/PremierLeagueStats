@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: PremierLeagueStats.Mapping
+  commentId: N:PremierLeagueStats.Mapping
+  id: PremierLeagueStats.Mapping
+  children:
+  - PremierLeagueStats.Mapping.MappingProfile
+  langs:
+  - csharp
+  - vb
+  name: PremierLeagueStats.Mapping
+  nameWithType: PremierLeagueStats.Mapping
+  fullName: PremierLeagueStats.Mapping
+  type: Namespace
+  assemblies:
+  - PremierLeagueStats
+references:
+- uid: PremierLeagueStats.Mapping.MappingProfile
+  commentId: T:PremierLeagueStats.Mapping.MappingProfile
+  href: PremierLeagueStats.Mapping.MappingProfile.html
+  name: MappingProfile
+  nameWithType: MappingProfile
+  fullName: PremierLeagueStats.Mapping.MappingProfile
